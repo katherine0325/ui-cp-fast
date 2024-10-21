@@ -4,7 +4,7 @@ export default {
   name: 'Doc',
   data() {
     return {
-      titles: ['开始', '弹出窗', '操作网页', '弹出窗与目标页面互动'],
+      titles: ['开始', '弹出窗', '操作网页', '弹出窗与目标页面互动', '官网们'],
       articles: {},
       currentTitle: '开始',
     }
