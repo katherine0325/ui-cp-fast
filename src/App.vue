@@ -5,6 +5,8 @@
 </template>
 
 <script>
+import 'ant-design-vue/dist/antd.css'
+
 export default {
   name: 'App'
 }
@@ -23,11 +25,11 @@ body,
 }
 
 h1 {
-  color: #F5C147 !important;
+  color: #F5C147;
 }
 
 h2 {
-  color: #CFCFCF !important;
+  color: #CFCFCF;
 }
 
 pre {
