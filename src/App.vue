@@ -23,11 +23,11 @@ body,
 }
 
 h1 {
-  color: #F5C147;
+  color: #F5C147 !important;
 }
 
 h2 {
-  color: #CFCFCF;
+  color: #CFCFCF !important;
 }
 
 pre {
