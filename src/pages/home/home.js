@@ -1,5 +1,18 @@
 export default {
   name: 'Home',
+  metaInfo: {
+    title: 'CPFast | 快速开发Chrome插件，一个便捷插件框架',
+    meta: [
+      {
+        name: 'description',
+        content: '集成Vue3、Antd、TailwindCss、各种npm包即装即用 | Chrome插件便捷框架'
+      },
+      {
+        name: 'keywords',
+        content: 'Vue3, Antd, TailwindCss, npm包, 永久使用, 永久升级, 永久支持'
+      }
+    ]
+  },
   data() {
     return {
 

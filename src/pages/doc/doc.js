@@ -2,6 +2,19 @@ const marked = require('marked');
 
 export default {
   name: 'Doc',
+  metaInfo: {
+    title: 'CPFast | 开发文档 | 快速开发Chrome插件，一个便捷插件框架',
+    meta: [
+      {
+        name: 'description',
+        content: '集成Vue3、Antd、TailwindCss、各种npm包即装即用 | Chrome插件便捷框架'
+      },
+      {
+        name: 'keywords',
+        content: 'Vue3, Antd, TailwindCss, npm包'
+      }
+    ]
+  },
   data() {
     return {
       titles: ['开始', '弹出窗', '操作网页', '弹出窗与目标页面互动', '官网们'],
